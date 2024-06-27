@@ -8,13 +8,6 @@ Welcome to my professional portfolio! This repository showcases my skills, proje
 ![Screenshot](education.png)
 ![Screenshot](getInTouch.png)
 
-## Table of Contents
-
-- [Home](#home)
-- [Education](#education)
-- [Get In Touch](#getInTouch)
-- [License](#license)
-
 ## Contact
 
 Connect with me! Feel free to reach out for collaboration, job opportunities, or just to say hello.
