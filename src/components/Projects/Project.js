@@ -11,34 +11,46 @@ import ProgrammingSkills from "../Professional Skillset/ProgrammingSkills";
 import { useSelector } from "react-redux";
 
 const Projects = (props) => {
-    const nonThemeColor = useSelector(state => state.nonThemeColor);
-    const uiColor = useSelector(state => state.uiColor);
-    let projects = ProjectsData.DUMMY_PROJECTS;
-    return (
-        <div id="projects">
-            <div className={styles.projects}>
-                <section className={styles.projectImg}>
-                    <img src={projectCoverImg} alt="" />
-                </section>
-                <section className={styles.projectHeader}>
-                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
-                </section>
-            </div>
-            <ProgrammingSkills />
-            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1>
-            <div className={styles.projectList}>
-                {projects.map((item, index) => {
-                    return <ProjectItem key={index} project={item} />
-                })}
-            </div>
-            <div className={styles.moreProject}>
-                <a target="_blank" rel="noreferrer" href={`${SocialData.githubLink}?tab=repositories`}>
-                    <Button className={styles.moreProjectBtn}>More Projects</Button>
-                </a>
-            </div>
-        </div>
-    )
+  const nonThemeColor = useSelector((state) => state.nonThemeColor);
+  const uiColor = useSelector((state) => state.uiColor);
+  let projects = ProjectsData.DUMMY_PROJECTS;
+  return (
+    <div id="projects">
+      <div className={styles.projects}>
+        <section className={styles.projectImg}>
+          <img src={projectCoverImg} alt="" />
+        </section>
+        <section className={styles.projectHeader}>
+          <h1>
+            <span style={{ color: nonThemeColor }}>My Recent </span>
+            <span style={{ color: uiColor }}>Works</span>
+          </h1>
+          <div>
+            My work involves utilizing a wide range of cutting-edge technology
+            tools. With 5 years of experience as a full stack engineer, I
+            specialize in front-end development, particularly with React. My
+            expertise lies in creating dynamic and responsive web applications
+          </div>
+        </section>
+      </div>
+      <ProgrammingSkills />
+      <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>
+        My Projects
+      </h1>
+      <div className={styles.projectList}>
+        {projects.map((item, index) => {
+          return <ProjectItem key={index} project={item} />;
+        })}
+      </div>
+      <div className={styles.moreProject}>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={`${SocialData.githubLink}?tab=repositories`}
+        ></a>
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
