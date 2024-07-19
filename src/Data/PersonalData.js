@@ -11,7 +11,7 @@ const PersonalData = {
   imageUrl: "",
 };
 export const autoTypeData = [
-  "5 year Experienced Full-Stack Developer",
+  "6 year Experienced Full-Stack Developer",
   "MERN Stack Developer",
   "Flutter App Developer",
   "Open Source Contributor",

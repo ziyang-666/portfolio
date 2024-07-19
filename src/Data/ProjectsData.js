@@ -5,14 +5,14 @@ const DUMMY_PROJECTS = [
       "The Hotel Search and Discovery project at Airbnb focuses on enhancing the user experience for finding and booking accommodations. The platform connects users with a wide range of properties, providing robust search and filtering capabilities to help them find the perfect stay. Leveraging a complex tech stack and modern web development techniques, the project aims to deliver a seamless and efficient user experience.",
   },
   {
-    projectTitle: "Storyscript",
+    projectTitle: "Root Insurance",
     description:
-      "Storyscript is a platform for creating and managing microservices workflows, allowing developers to build, deploy, and manage cloud-native applications seamlessly.",
+      "Root Insurance is a platform designed for creating and managing microservices workflows, enabling developers to build, deploy, and manage cloud-native insurance applications seamlessly. With Root Insurance, developers can streamline the development process, ensuring efficient deployment and robust management of insurance services, while focusing on delivering innovative solutions in the insurance industry.",
   },
   {
-    projectTitle: "Shopify Admin Dashboard",
+    projectTitle: "CoverMyMeds",
     description:
-      "The Shopify Admin Dashboard is a sophisticated, user-friendly application that enables store owners to manage their online shops efficiently. It leverages a modern tech stack and various web development practices to ensure a seamless and powerful user experience.",
+      "CoverMyMeds is a platform for creating and managing microservices workflows, enabling developers to build, deploy, and manage cloud-native healthcare applications seamlessly. It streamlines development, deployment, and management processes, ensuring efficient and innovative solutions in the healthcare sector.",
   },
 ];
 const ProjectsData = { DUMMY_PROJECTS };

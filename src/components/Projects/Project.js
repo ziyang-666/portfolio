@@ -27,7 +27,7 @@ const Projects = (props) => {
           </h1>
           <div>
             My work involves utilizing a wide range of cutting-edge technology
-            tools. With 5 years of experience as a full stack engineer, I
+            tools. With 6 years of experience as a full stack engineer, I
             specialize in front-end development, particularly with React. My
             expertise lies in creating dynamic and responsive web applications
           </div>
